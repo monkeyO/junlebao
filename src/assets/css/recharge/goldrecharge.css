@@ -1,0 +1,223 @@
+/* 充值套餐样式 */
+.recharge_combo {
+  width: 100%;
+}
+/* 标题盒子样式 */
+.title {
+  height: 70px;
+  line-height: 70px;
+  font-weight: bold;
+  border-bottom: 1px solid #cbcbcb;
+}
+/* 标题样式 */
+.title p {
+  height: 70px;
+  font-size: 15px;
+  color: #707070;
+}
+.title span {
+  font-size: 20px;
+  color: #444444;
+  margin-right: 10px;
+  border-left: 3px solid #ff4251;
+  padding-left: 10px;
+}
+/* 充值套餐内容样式 */
+.recharge_combo_content {
+  height: 300px;
+  margin: 30px auto;
+}
+/* 列表项样式 */
+.recharge_combo_content ul li{
+  padding: 10px;
+  width: 22.7%;
+  height: 128px;
+  float: left;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+/* 列表项内容盒子样式 */
+.recharge_combo_content ul li .item_div {
+  width: 100%;
+  height: 127px;
+  border: 1px solid #cccccc;
+  position: relative;
+}
+.active_div {
+  background: url(../../../assets/img/recharge/choose_bg.png) no-repeat;
+  background-size: 100% 127px;
+  border: 1px solid #fff!important;
+}
+/* 鼠标悬停去边框显示背景图 */
+.recharge_combo_content ul li .item_div:hover {
+  background: url(../../../assets/img/recharge/choose_bg.png) no-repeat;
+  background-size: 100% 127px;
+  border: 1px solid #fff!important;
+}
+/* 赠送金币样式 */
+.give_gold {
+  width: 120px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../../../assets/img/recharge/give_gold_bg.png) no-repeat;
+}
+/* 套餐明细样式 */
+.combo_detail {
+  width: 100%;
+  height: 92px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+/* 段落样式 */
+.combo_detail p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+/* 第一个段落样式 */
+.combo_detail p:first-child {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+/* 字体样式 */
+.combo_detail span {
+  font-size: 24px;
+  margin-right: 5px;
+}
+/* 金币充值样式 */
+.gold_recharge {
+  width: 100%;
+}
+/* 金币充值内容样式 */
+.gold_recharge_content {
+  margin: 20px auto;
+}
+/* 列表项样式 */
+.gold_recharge_content ul .item_li {
+  width: 100%;
+  margin-bottom: 50px;
+}
+/* 充值金额标题样式 */
+.gold_title {
+  display: inline-block;
+  width: 12%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+/* 段落样式 */
+.gold_p {
+  font-size: 16px;
+  color: #666;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+/* 输入框样式 */
+.gold_input {
+  width: 40%;
+  font-size: 16px;
+}
+/* 支付方式样式 */
+.item_li .payment{
+  display: inline-block;
+  width: 12%;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+/* 支付方式选择框样式 */
+.zhifubao_pay, .yajin_pay, .bank_pay {
+  display: inline-block;
+  width: 146px;
+  /*height: 40px;*/
+  padding: 10px;
+  border: 1px solid #cccccc;
+  margin-right: 10px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+/* 文字样式 */
+.zhifubao_pay span, .yajin_pay span, .bank_pay span {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.active_pay {
+  background: url(../../../assets/img/recharge/choose_pay_bg.png) no-repeat;
+  border-color: #fff;
+  background-size: 100% 60px;
+}
+/* 鼠标悬停去边框加背景图 */
+.zhifubao_pay:hover, .yajin_pay:hover, .bank_pay:hover {
+  background: url(../../../assets/img/recharge/choose_pay_bg.png) no-repeat;
+  border-color: #fff;
+  background-size: 100% 60px;
+}
+/* 图片样式 */
+.item_li  img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+.bank_pay_information {
+  width: 67.5%;
+  margin-top: 10px;
+  padding: 14px 18px;
+  background: #fff4e8;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ee6e2e;
+  border: 1px solid #ff6a0b;
+}
+/* 支付金额样式 */
+.payment_p {
+  font-size: 18px;
+  color: #666;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+/* 确认支付按钮 */
+.submit_btn {
+  width: 22.3%;
+  height: 56px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-left: 10px;
+}
+/* 温馨提示样式 */
+.warm_prompt {
+  width: 100%;
+  margin: 60px auto 80px;
+}
+.warm_prompt div {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.warm_prompt p {
+  font-size: 16px;
+  color: #666;
+}
+.warm_prompt span {
+  color: #000;
+}
+/* 媒体查询*/
+/*@media screen and (max-width: 1900px){*/
+/*.recharge_combo_content ul li {*/
+/*width: 30%;*/
+/*}*/
+/*}*/

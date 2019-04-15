@@ -1,0 +1,185 @@
+#bg{
+  position: absolute;
+  z-index: -1;
+}
+/* 媒体查询*/
+@media screen and (max-width: 1200px){
+  .box{
+    width: 1200px;
+  }
+  #bg{
+    width: 1200px;
+  }
+}
+.regmain{
+  float: right;
+  margin-top: 5%;
+  margin-right: 15%;
+  padding: 40px 20px;
+  background: rgba(255,255,255,.1);
+  font-size: 25px;
+  color: #999;
+}
+.regmain li{
+  margin-bottom: 15px;
+}
+.regmain li .inputbg{
+  display: block;
+  width: 45px;
+  height: 50px;
+  position: absolute;
+  background: url(../../../assets/img/login/regicon.png);
+  background-repeat: no-repeat;
+}
+.regmain li .inputbg::after{
+  content: "";
+  border-right: 1px solid;
+  height: 60%;
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+.regmain li .bgphone{
+  background-position: -54px 0;
+}
+.regmain li .bgpsw{
+  background-position: 7px 0;
+}
+.regmain li input{
+  border: 2px solid #999;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 8px;
+  height: 50px;
+  width: 380px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+.p_operation{
+  font-size: 16px;
+}
+.p_operation a{
+  color: white;
+}
+.login__btn_box{
+  text-align: center;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+  font-size:16px;
+  vertical-align: middle;
+}
+
+#code,#imgcode{
+  width: 270px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+}
+.getcode,.getimgcode{
+  display: block;
+  width: 110px;
+  background: #E73C3A;
+  height: 50px;
+  border: 2px solid #999;
+  border-left: 0;
+  box-sizing: border-box;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #FFF;
+  font-size: 16px;
+  text-align: center;
+  line-height: 45px;
+}
+.mybtn{
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #E73C3A;
+  border:1px solid #E73C3A;
+  border-radius: 10px;
+}
+.mybtn:hover{
+  background-color: #e66a68;
+  border-color: #e66a68;
+}
+/* 弹窗 */
+.edit_shade {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 1101;
+}
+.edit_pop {
+  width: 380px;
+  background: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -190px;
+  margin-top: -160px;
+}
+.edit_pop_title {
+  line-height: 16px;
+  padding: 15px 24px;
+  background: #f8f8f8;
+}
+.edit_pop_content {
+  padding: 20px;
+}
+.edit_pop_content li {
+  display: flex;
+  align-items: center;
+}
+.edit_pop_content .left {
+  flex: 1;
+}
+.edit_pop_content .right {
+  flex: 2.5;
+  display: flex;
+  align-items: center;
+}
+.edit_pop_content li+li {
+  margin-top: 15px;
+}
+.edit_pop_content input {
+  width: 100%;
+  height: 28px;
+  border: 2px dashed #57a0ff;
+  font-size: 16px;
+  color: #999;
+  padding-left: 10px;
+}
+.edit_pop_content .imgCode,
+.edit_pop_content .getCode {
+  width: 40%;
+  height: 32px;
+  margin-left: 10px;
+}
+.edit_pop_content .getCode {
+  width: 78%;
+  line-height: 32px;
+  border: 0;
+  background: #fc762d;
+  color: #fff;
+  border-radius: 4px;
+}
+.edit_pop_content .btn {
+  height: 32px;
+  line-height: 4px;
+  width: 100%;
+  background: #57a0ff;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+}
+.edit_pop_content .btn:hover {
+  opacity: .8;
+}

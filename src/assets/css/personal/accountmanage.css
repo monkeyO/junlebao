@@ -1,0 +1,87 @@
+/* 账户管理盒子样式 */
+.account_manage {
+  /*height: 818px;*/
+  background: #fff;
+}
+/* 标题样式 */
+.account_manage_title {
+  padding: 30px;
+  height: 30px;
+}
+.account_manage_title h3 {
+  line-height: 30px;
+  padding-left: 20px;
+  border-left: 4px solid #fe474c;
+  font-weight: normal;
+}
+/* 内容盒子样式 */
+.account_manage_box {
+  height: 530px;
+  padding: 20px 58px;
+  padding-bottom: 178px;
+}
+.account_manage_box ul li {
+  height: 60px;
+  line-height: 60px;
+}
+.account_manage_box ul li.password{
+  margin-bottom: 74px;
+}
+.account_manage_box b {
+  float: right;
+  line-height: 60px;
+  cursor: pointer;
+}
+.account_manage_box span {
+  display: inline-block;
+  width: 11%;
+  text-align: center;
+}
+.account_manage_box .check {
+  display: inline;
+}
+.account_manage_box .input {
+  width: 40%;
+  margin-right: 20px;
+}
+.account_manage_box img {
+  vertical-align: middle;
+}
+.account_manage_box .btn_box {
+  margin: 40px 100px;
+}
+.account_manage_box .btn {
+  width: 20%;
+}
+/* 修改密码样式 */
+.change_password {
+  height: 60px;
+  padding: 0 30px;
+}
+.change_password div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.change_password_p {
+  font-size: 18px;
+}
+
+/* 密码设置样式 */
+.set_password img, .change_password img{
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+.set_password p {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+.set_password_p {
+  border-right: 1px solid #dcdcdc;
+  font-size: 18px;
+}

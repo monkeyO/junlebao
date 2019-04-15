@@ -1,0 +1,139 @@
+/* 标题盒子样式 */
+.title {
+  height: 70px;
+  line-height: 70px;
+  font-weight: bold;
+  border-bottom: 1px solid #cbcbcb;
+}
+/* 标题样式 */
+.title p {
+  height: 70px;
+  font-size: 15px;
+  color: #707070;
+}
+.title span {
+  font-size: 20px;
+  color: #444444;
+  margin-right: 10px;
+  border-left: 3px solid #ff4251;
+  padding-left: 10px;
+}
+/* 押金充值样式 */
+.deposit_recharge {
+  width: 100%;
+}
+/* 押金充值内容样式 */
+.deposit_recharge_content {
+  margin: 20px auto;
+}
+/* 列表项样式 */
+.deposit_recharge_content ul .item_li {
+  width: 100%;
+  margin-bottom: 50px;
+}
+/* 充值金额标题样式 */
+.deposit_title {
+  display: inline-block;
+  width: 12%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+/* 段落样式 */
+.deposit_p {
+  font-size: 16px;
+  color: #666;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+/* 输入框样式 */
+.deposit_input {
+  width: 40%;
+  font-size: 16px;
+}
+/* 支付方式样式 */
+.item_li .payment{
+  display: inline-block;
+  width: 12%;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+/* 支付方式选择框样式 */
+.zhifubao_pay, .bank_pay {
+  display: inline-block;
+  width: 146px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  margin-right: 10px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+/* 文字样式 */
+.zhifubao_pay span, .bank_pay span {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.active_pay{
+  background: url(../../../assets/img/recharge/choose_pay_bg.png) no-repeat;
+  border-color: #fff;
+}
+/* 鼠标悬停去边框加背景图 */
+.zhifubao_pay:hover, .bank_pay:hover {
+  background: url(../../../assets/img/recharge/choose_pay_bg.png) no-repeat;
+  border-color: #fff;
+  background-size: 100% 60px;
+}
+/* 图片样式 */
+.item_li  img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+.bank_pay_information {
+  width: 47.9%;
+  margin-top: 10px;
+  padding: 14px 18px;
+  background: #fff4e8;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ee6e2e;
+  border: 1px solid #ff6a0b;
+}
+/* 支付金额样式 */
+.payment_p {
+  font-size: 18px;
+  color: #666;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+/* 确认支付按钮 */
+.submit_btn {
+  width: 22.3%;
+  height: 56px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-left: 10px;
+}
+/* 温馨提示样式 */
+.warm_prompt {
+  width: 100%;
+  margin: 60px auto 114px;
+}
+.warm_prompt div {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.warm_prompt p {
+  font-size: 16px;
+  color: #666;
+}
+.warm_prompt span {
+  color: #000;
+}

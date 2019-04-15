@@ -1,0 +1,120 @@
+/* 邀请方式 */
+.color-433f36 {
+  color: #433f36;
+  font-weight: bold;
+}
+.color-b65b53 {
+  color: #b65b53;
+  font-weight: bold;
+}
+.invite_way_box {
+  width: 57.4%;
+  background: #fff;
+  margin: 40px auto 0;
+  text-align: center;
+  border-radius: 12px;
+}
+.invite_way_box .title {
+  height: 91px;
+  font-size: 28px;
+  line-height: 70px;
+  color: #fbf1e5;
+  background: url('../../img/invite/invite_title.png') no-repeat;
+  background-size: 100% 91px;
+  letter-spacing: 2px;
+}
+.invite_way_box .content {
+  padding: 20px;
+  font-size: 20px;
+}
+.invite_way_first,
+.invite_way_second,
+.invite_way_third {
+  width: 100%;
+  background: #fcefde;
+  padding: 24px 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+.invite_way_box .left {
+  flex: 3.7;
+  font-size: 20px;
+  line-height: 20px;
+}
+.invite_way_box .right {
+  flex: 1;
+  padding: 28px 0;
+  border-left: 1px solid #da993d;
+}
+.invite_way_box .copy_btn {
+  font-size: 18px;
+  line-height: 18px;
+  background: #da993d;
+  color: #fff;
+  padding: 20px 34px;
+  border: 0;
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+.invite_way_box .copy_btn:hover {
+  opacity: .8;
+}
+.invite_way_first p+p {
+  margin-top: 30px;
+}
+.invite_way_second .left,
+.invite_way_third .left {
+  flex: .8;
+  margin-left: 20px;
+}
+.invite_way_second .right,
+.invite_way_third .right {
+  flex: 1;
+}
+.invite_way_second .middle,
+.invite_way_third .middle {
+  flex: 2.8;
+}
+.invite_way_second p+p,
+.invite_way_third p+p {
+  margin-top: 20px;
+}
+.invite_way_second .right {
+  padding: 0;
+}
+.invite_way_second .left img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+.invite_way_second .right img {
+  display: block;
+  width: 108px;
+  height: 108px;
+  margin: 0 auto;
+  border: 6px solid #fc8936;
+  border-radius: 8px;
+  opacity: .75;
+}
+.invite_way_third .left_outer_box {
+  width: 86%;
+  background: #fefefe;
+  padding: 10px;
+}
+.invite_way_third .left_inner_box {
+  height: 97px;
+  border: 1px dashed #e2ceb7;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #f86365;
+  padding: 0 10px;
+  word-break: break-all;
+  display: flex;
+  align-items: center;
+}
+.invite_way_third .left_outer_box,
+.invite_way_third .left_inner_box {
+  border-radius: 10px;
+}

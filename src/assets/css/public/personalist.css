@@ -1,0 +1,58 @@
+.personlist{
+  font-size: 16px;
+  color: #000;
+  margin-right: 15px;
+}
+.person_top{
+  padding: 35px 50px;
+  background: white;
+  text-align: center;
+}
+.person-ul{
+  background: white;
+  text-align: center;
+}
+.person-ul li:not(.person-ul-li){
+  padding: 13px 0;
+}
+.person-ul li span[class]:hover{
+  color: red;
+  cursor: pointer;
+}
+.person-ul-ewm{
+  background: #F0F0F0;
+}
+.person-ul-ewm div{
+  margin: 0 auto;
+  width: 203px;
+  padding-top: 2px;
+  background: #ed702c;
+}
+.person-ul-ewm div p{
+  color: white;
+  padding: 0 10px;
+  line-height: 20px;
+}
+.person-ul-li{
+  height: 55px;
+  line-height: 55px;
+  background: #eaeaea;
+  color: #999;
+  font-size: 20px;
+}
+.person-ul-li img{
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
+.appeal-li{
+  margin-top: 10px;
+  background: #F0F0F0;
+}
+.appeal{
+  width: 100%;
+  border: 0;
+  background: #ed702c;
+  height: 47px;
+  border-radius: 4px;
+  color: white;
+}

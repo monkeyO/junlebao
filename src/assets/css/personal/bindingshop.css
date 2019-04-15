@@ -1,0 +1,196 @@
+/* 新增店铺样式 */
+.add_shop {
+  background: #fff;
+  padding: 24px 20px 22px 20px;
+}
+.add_shop img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.add_shop button {
+  width: 102px;
+  height: 32px;
+  background: #fb741d;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.notice_item {
+  padding: 10px 15px;
+  background: #e7e9f2;
+  margin-bottom: 15px;
+  color: #666;
+}
+/* 选择平台/填写店铺信息 样式 */
+.choose_platform, .write_shop_information {
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 25px 30px;
+}
+.choose_platform_list {
+  height: 85px;
+  line-height: 105px;
+  border-top: 1px solid #ccc;
+  margin-top: 15px;
+}
+.choose_platform_list li {
+  width: 20%;
+  float: left;
+}
+.choose_platform_list img {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* 绑定列表样式 */
+.bind_list {
+  background: #fff;
+  padding: 20px 20px 30px;
+}
+.bind_list_title, .choose_platform_title, .write_shop_information_title {
+  height: 24px;
+  font-size: 18px;
+  border-left: 4px solid #e73c3a;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.bind_list table {
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  text-align: center;
+}
+.bg_icon {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url('../../../assets/img/person/bind_shop_icon.png') no-repeat;
+  background-size: 126px;
+}
+.first_icon {
+  background-position: 0 0;
+}
+.second_icon {
+  background-position: -32px 0;
+}
+.third_icon {
+  background-position: -65px 0;
+}
+.fourth_icon {
+  background-position: -98px 0;
+}
+.bind_list table tr, .bind_list table th, .bind_list table td {
+  border: 1px solid #e8e8e8;
+}
+.bind_list table tr {
+  height: 88px;
+}
+.bind_list table thead th {
+  font-size: 15px;
+}
+.bind_list table tbody tr td:nth-child(4) {
+  color: #e73c3a;
+}
+.bind_list table tbody td {
+  padding: 0 20px;
+  color: #999;
+  font-size: 15px;
+}
+.bind_list table .first_tr {
+  height: 46px;
+  background: #f5f5f5;
+  color: #333;
+}
+.first_tr img, .first_tr span {
+  vertical-align: middle;
+  color: #333;
+}
+.bind_list table .list_btn {
+  width: 74%;
+  padding: 15px 0;
+  border: 0;
+  color: #fff;
+  line-height: 15px;
+  border-radius: 4px;
+}
+.bind_list table .list_btn:hover {
+  opacity: .8;
+}
+/* 填写店铺信息表单样式 */
+.write_shop_information_form {
+  border-top: 1px solid #ccc;
+  margin-top: 15px;
+}
+.write_shop_information_form ul {
+  width: 100%;
+  /* text-align: center; */
+  margin: 40px auto 198px;
+}
+.write_shop_information_form ul li {
+  margin-bottom: 20px;
+}
+.write_shop_information_form span {
+  display: inline-block;
+  width: 12%;
+  text-align: start;
+}
+.write_shop_information_form .input {
+  width: 50%;
+  margin-right: 20px;
+}
+.write_shop_information_form .btn {
+  width: 20%;
+  margin: 40px 0 40px 60px;
+}
+/* 弹窗 */
+.edit_shade {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 1101;
+}
+.edit_pop {
+  width: 620px;
+  height: 400px;
+  background: rgba(255, 255, 255, 1);
+  color: #333;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -350px;
+  margin-top: -230px;
+  padding: 30px 30px 30px 50px;
+}
+.edit_pop_title {
+  font-size: 18px;
+  line-height: 18px;
+  color: #999;
+}
+.el_row {
+  margin-top: 15px;
+  line-height: 34px;
+}
+.el_col {
+  margin-left: -20px;
+}
+.edit_pop_content .pop_input {
+  height: 30px;
+  vertical-align: sub;
+}
+.operate_button {
+  margin-top: 30px;
+  text-align: center;
+}
+.operate_button button {
+  width: 140px;
+  height: 40px;
+}
+.operate_button button+button {
+  margin-left: 73px;
+}

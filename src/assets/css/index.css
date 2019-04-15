@@ -1,0 +1,547 @@
+/* 标题样式 */
+.online_service_box_title h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+/* 段落样式 */
+.online_service_box_title p {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+/* 列表样式 */
+.online_service_box ul {
+  width: 130px;
+  background: #fff;
+  margin: 0 auto;
+}
+/* 列表项样式 */
+.online_service_box ul li {
+  height: 80px;
+  padding-top: 20px;
+  border-bottom: 1px dashed #cfcfcf;
+}
+.online_service_box ul li:last-child {
+  border-bottom: 0;
+}
+/* 标题样式 */
+.online_service_box ul li h4{
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+/* 鼠标悬停显示/隐藏 */
+.online_service:hover .online_service_box {
+  display: block;
+}
+/* 商家入驻二维码咨询样式 */
+.merchant_settled_box {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -160px;
+  width: 160px;
+  background: #ffefe4;
+  border-radius: 5px;
+  color: #333;
+  padding-bottom: 3px;
+}
+/* 鼠标悬停显示/隐藏 */
+.merchant_settled:hover .merchant_settled_box {
+  display: block;
+}
+
+/* 好卖符能为商家带来什么？ - 功能介绍样式 */
+.subtool {
+  width: 100%;
+  background: #f0f0f0;
+  padding-bottom: 8.5%;
+}
+/* 顶部标题样式 */
+.subtool_top {
+  height: 180px;
+}
+/* 标题样式 */
+.title {
+  position: relative;
+  line-height: 30px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #333333;
+  letter-spacing: 2px;
+  padding-top: 3.2%;
+}
+/* 下划线样式 */
+.underline {
+  width: 66px;
+  height: 2px;
+  background: #7f7f7f;
+  position: absolute;
+  left: 50%;
+  margin-left: -33px;
+  bottom: -16px;
+}
+/* 底部功能介绍样式 */
+.subtool_bottom {
+  width: 62.5%;
+  height: 580px;
+  margin: 0 auto;
+}
+/* 列表样式 */
+.subtool_bottom ul li {
+  float: left;
+  width: 30%;
+  cursor: pointer;
+  position: relative;
+}
+/* 列表项margin-right */
+.li_margin_right {
+  margin-right: 5%;
+}
+/* 列表项margin-bottom */
+.li_margin_bottom {
+  margin-bottom: 12.3%;
+}
+/* 序号样式 */
+.subtool_bottom ul li .number {
+  width: 50px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 23px;
+  z-index: 8;
+}
+/* 说明样式 */
+.subtool_bottom ul li .explain {
+  width: 96%;
+  height: 23%;
+  background: rgba(31,149,221,0.6);
+  color: #fff;
+  line-height: 50px;
+  font-size: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  letter-spacing: 2px;
+  padding-left: 4%;
+}
+/* 说明标题样式 */
+.subtool_bottom ul li .explain_title {
+  display: none;
+  width: 96%;
+  height: 77%;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  line-height: 170px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  padding-left: 4%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* 说明内容样式 */
+.subtool_bottom ul li .explain_content {
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 77%;
+  left: 0;
+  padding: 20px 15px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+/* 鼠标悬停序号样式 */
+.subtool_bottom ul li:hover .number{
+  background: #ff8002;
+}
+/* 鼠标悬停显示说明标题、说明内容*/
+.subtool_bottom ul li:hover .explain_title, .subtool_bottom ul li:hover .explain_content {
+  display: block;
+}
+
+/* 商家操作流程样式 */
+.operation_procedure {
+  position: relative;
+}
+/* 标题样式 */
+.title_1 {
+  position: absolute;
+  line-height: 30px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #333333;
+  letter-spacing: 2px;
+  padding-top: 3%;
+  width: 100%;
+}
+
+/* 好卖符VS其他平台样式 */
+.platform_contrast {
+  width: 100%;
+  background: #fff;
+}
+/* 顶部标题样式 */
+.platform_contrast_top {
+  height: 190px;
+}
+/* 底部对比样式 */
+.platform_contrast_bottom {
+  width: 62.5%;
+  height: 940px;
+  margin: 0 auto;
+}
+/* 好卖符/其他平台样式 */
+.platform_contrast_bottom_left, .platform_contrast_bottom_right {
+  width: 45%;
+  height: 100%;
+  float: left;
+  white-space: nowrap;
+}
+/* 好卖符标题样式 */
+.platform_contrast_bottom_left p:first-child {
+  font-size: 25px;
+  font-weight: bold;
+  color: #e73c3a;
+  line-height: 96px;
+  margin-bottom: 64px;
+}
+/* 其他平台标题样式 */
+.platform_contrast_bottom_right p:first-child{
+  font-size: 25px;
+  font-weight: bold;
+  color: #999;
+  line-height: 96px;
+  margin-bottom: 64px;
+}
+/* 好卖符内容样式 */
+.platform_contrast_bottom_left p {
+  text-align: center;
+  font-size: 22px;
+  color: #333;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+/* 其他平台内容样式 */
+.platform_contrast_bottom_right p {
+  text-align: center;
+  font-size: 22px;
+  color: #999;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+/* VS图片样式 */
+.platform_contrast_bottom_center {
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+.platform_contrast_bottom_center img {
+  display: block;
+  margin: 0 auto 20px;
+}
+.platform_contrast_bottom_center img:first-child {
+  margin-bottom: 64px;
+}
+
+/* 部分商家效果反馈图样式 */
+.effect_feedback {
+  width: 100%;
+  background: #f0f0f0;
+  padding-bottom: 5%;
+}
+/* 顶部标题样式 */
+.effect_feedback_top {
+  height: 165px;
+}
+/* 中间效果图样式 */
+.effect_feedback_middle {
+  width: 62.5%;
+  margin: 0 auto;
+}
+/* 期间样式 */
+.effect_feedback_middle_top {
+  width: 100%;
+  line-height: 60px;
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+/* 效果反馈图样式 */
+.effect_feedback_middle_bottom {
+  width: 100%;
+  background: #0ff;
+}
+/* 底部截图样式 */
+.effect_feedback_bottom {
+  width: 62.5%;
+  height: 915px;
+  margin: 20px auto 0;
+}
+/* 列表项样式 */
+.effect_feedback_bottom ul li {
+  float: left;
+  width: 20%;
+  height: 420px;
+  margin-right: 6.66%;
+}
+.effect_feedback_bottom ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.effect_feedback_li_margin_bottom {
+  margin-bottom: 6.3%;
+}
+
+/* 优化建议样式 */
+.optimization {
+  width: 100%;
+  position: relative;
+}
+/* 内容样式 */
+.optimization_content {
+  width: 62.5%;
+  position: absolute;
+  top: 0;
+  left: 18.75%;
+}
+/* 左侧说明样式 */
+.optimization_content_left {
+  width: 76%;
+  float: left;
+}
+.p_title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  margin: 5% auto;
+  letter-spacing: 2px;
+}
+.p_title span {
+  width: 7%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+}
+.p_content {
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+/* 右侧二维码样式 */
+.optimization_content_right {
+  width: 24%;
+  float: left;
+}
+.qr_code_box {
+  width: 95%;
+  height: 90%;
+  padding: 5px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+
+/* 常见问题样式 */
+.common_question {
+  width: 100%;
+  background: #fff;
+}
+/* 顶部标题样式 */
+.common_question_top {
+  height: 165px;
+}
+/* 底部内容样式 */
+.common_question_bottom {
+  width: 62.5%;
+  height: 830px;
+  margin: 0 auto;
+}
+/* 列表项样式 */
+.common_question_bottom ul li {
+  width: 100%;
+  border-bottom: 1px solid #999;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.common_question_bottom ul li:first-child {
+  border-top: 1px solid #999;
+}
+/* 标题样式 */
+.common_question_bottom h4 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 1%;
+}
+/* 内容样式 */
+.common_question_bottom p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #8c8c8c;
+  font-weight: bold;
+}
+.p_option {
+  padding-left: 40px;
+}
+
+/* 底部样式 */
+footer {
+  width: 100%;
+  background: #f0f0f0;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+/* 商务合作样式 */
+.business_cooperation {
+  width: 100%;
+  position: relative;
+}
+/* 内容样式 */
+.business_cooperation_content {
+  width: 62.5%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 18.75%;
+}
+/* 左侧内容样式 */
+.business_cooperation_content_left {
+  width: 39.4%;
+  float: left;
+  padding-top: 3.5%;
+}
+.business_cooperation_content_left p{
+  color: #fff;
+}
+/* 大字体样式 */
+.p_big_fontsize {
+  font-size: 48px;
+  font-weight: bold;
+}
+/* 标准字体样式 */
+.p_normal_fontsize {
+  font-size: 18px;
+}
+/* 小字体样式 */
+.p_small_fontsize {
+  font-size: 14px;
+  margin-top: 3%;
+}
+/* 手机号字体样式 */
+.p_phone_fontsize {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* 右侧内容样式 */
+.business_cooperation_content_right {
+  width: 61.6%;
+  margin-left: 39.4%;
+}
+/* 商务合作联系方式样式 */
+.business_cooperation_content_right_content {
+  padding: 5%;
+  width: 60%;
+  float: left;
+}
+/* 标题样式 */
+.business_cooperation_content_right_content h4 {
+  font-size: 26px;
+  font-weight: normal;
+  color: #565656;
+  margin-bottom: 7%;
+}
+/* 联系方式样式 */
+.business_cooperation_content_right_content p {
+  color: #565656;
+  margin-bottom: 7%;
+}
+.business_cooperation_content_right_content p img {
+  float: left;
+  margin-right: 10px;
+}
+/* 二维码样式 */
+.business_cooperation_content_right_qr_code {
+  float: left;
+  margin-top: 5%;
+}
+.remark {
+  padding-left: 5%;
+  margin-top: 3%;
+  color: #565656;
+}
+.remark p {
+  float: left;
+  font-size: 15.5px;
+}
+.remark img {
+  float: left;
+  margin-right: 10%;
+}
+.remark span {
+  font-size: 12px;
+}
+/* 版权信息样式 */
+.copyright_information {
+  padding-top: 4%;
+  font-size: 18px;
+  color: #999;
+  text-align: center;
+  line-height: 50px;
+}
+.copyright_information a {
+  color: #999;
+}
+
+/* 小于1550px */
+@media screen and (max-width: 1550px) {
+  .subtool {
+    padding-bottom: 0;
+  }
+  .subtool_bottom ul li .explain {
+    font-size: 21px;
+    line-height: 40px;
+    width: 98%;
+    padding-left: 2%;
+  }
+  .subtool_bottom ul li .explain_title {
+    font-size: 21px;
+    width: 98%;
+    padding-left: 2%;
+  }
+  .subtool_bottom ul li .explain_content {
+    font-size: 16px;
+    padding: 10px;
+    height: 50%;
+  }
+  .platform_contrast_bottom_left p{
+    font-size: 21px;
+  }
+  .p_big_fontsize {
+    font-size: 38px;
+    font-weight: bold;
+  }
+  .p_normal_fontsize {
+    font-size: 16px;
+  }
+  .p_small_fontsize {
+    font-size: 14px;
+    margin-top: 2%;
+  }
+  .p_phone_fontsize {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .business_cooperation_content_right_qr_code {
+    margin-top: 2%;
+  }
+}

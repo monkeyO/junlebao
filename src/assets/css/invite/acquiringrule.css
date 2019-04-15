@@ -1,0 +1,128 @@
+/* 免费放单 */
+.color-433f36 {
+  color: #433f36;
+  font-weight: bold;
+}
+.color-b65b53 {
+  color: #b65b53;
+  font-weight: bold;
+}
+.get_gold_box,
+.choose_us_box {
+  width: 57.4%;
+  margin: 40px auto 0;
+  background: #fff;
+  text-align: center;
+  border-radius: 12px;
+}
+.get_gold_box .title,
+.choose_us_box .title {
+  height: 91px;
+  line-height: 70px;
+  font-size: 28px;
+  color: #fbf1e5;
+  background: url('../../img/invite/invite_title.png') no-repeat;
+  background-size: 100% 91px;
+  letter-spacing: 2px;
+}
+.get_gold_box .content,
+.choose_us_box .content {
+  padding: 20px;
+  font-size: 20px;
+}
+.get_gold_box .inner_box {
+  position: relative;
+  padding: 24px 0 24px 15px;
+  background: #fcefde;
+  border-radius: 12px;
+}
+.get_gold_box .left {
+  position: relative;
+  z-index: 1;
+}
+.get_gold_box .right {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 152px;
+  height: 130px;
+  background: url('../../img/invite/decorate.png') no-repeat;
+  background-size: 100%;
+}
+/* 邀请奖励 */
+.invite_award {
+  width: 57.4%;
+  height: 692px;
+  margin: 40px auto 0;
+  background: url('../../img/invite/invite_award.png') no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+.invite_award ul {
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 334px;
+  font-size: 20px;
+  color: #fee1b8;
+}
+.invite_award ul li {
+  display: flex;
+  height: 53px;
+  align-items: center;
+  justify-content: center;
+}
+.invite_award li div {
+  flex: 1;
+}
+/* 选择我们的八大优势 */
+.choose_us .content {
+  position: relative;
+  padding-bottom: 40px;
+}
+.choose_us .contrast {
+  width: 100%;
+  height: 79px;
+  background: url('../../img/invite/contrast.png') no-repeat;
+  background-size: 100% 100%;
+}
+.choose_us .both_ul {
+  margin-top: 40px;
+}
+.choose_us .both_ul li {
+  display: flex;
+  height: 85px;
+  align-items: center;
+  justify-content: center;
+}
+.choose_us .both_ul li div {
+  flex: 1;
+}
+.choose_us .both_ul li:nth-child(odd) {
+  background: #f7f8fa;
+}
+.choose_us .both_ul .left {
+  padding-right: 170px;
+  font-size: 22px;
+  color: #333;
+}
+.choose_us .both_ul .right {
+  font-size: 20px;
+  color: #999;
+}
+.choose_us .middle_ul {
+  position: absolute;
+  top: 105px;
+  left: 43%;
+  width: 14%;
+  padding-top: 34px;
+  background: #feeee1;
+  border-radius: 4px;
+  border: 1px solid #f1f1f3;
+  font-size: 18px;
+  color: #fc451d;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.choose_us .middle_ul li {
+  padding: 30px 0;
+}

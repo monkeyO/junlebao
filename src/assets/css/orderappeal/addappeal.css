@@ -1,0 +1,56 @@
+.box{
+  display: flex;
+  justify-content: center;
+}
+.orderappeal{
+  background: #f0f0f0;
+}
+/*!* 新增申诉 *!*/
+.add_appeal {
+  background: #fff;
+  padding: 25px 30px 0;
+}
+.add_appeal_title {
+  height: 24px;
+  font-size: 18px;
+  border-left: 4px solid #e73c3a;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+/* 填写店铺信息表单样式 */
+.add_appeal_form {
+  border-top: 1px solid #ccc;
+  margin-top: 15px;
+}
+.add_appeal_form ul {
+  width: 100%;
+  margin: 40px auto 0;
+}
+.add_appeal_form ul li+li {
+  margin-top: 20px;
+}
+.add_appeal_form span {
+  display: inline-block;
+  width: 12%;
+  text-align: start;
+}
+.add_appeal_form .input {
+  width: 50%;
+  margin-right: 20px;
+}
+.add_appeal_form .upload_img {
+  display: inline-block;
+}
+.add_appeal_form .btn {
+  width: 30%;
+  margin: 40px 0;
+}
+/* 温馨提示 */
+.warm_prompt {
+  padding: 20px 40px;
+  background: #fff0f0;
+  color: #999;
+  opacity: .95;
+  line-height: 22px;
+
+}

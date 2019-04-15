@@ -1,0 +1,76 @@
+.box{
+  display: flex;
+  justify-content: center;
+}
+.orderappeal{
+  background: #f0f0f0;
+}
+/* 订单申诉 */
+.order_appeal {
+  background: #fff;
+  padding: 24px 20px 22px 20px;
+}
+.order_appeal img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.order_appeal a {
+  display: inline-block;
+  width: 102px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #fb741d;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+/* 温馨提示 */
+.warm_prompt {
+  font-size: 14px;
+  line-height: 14px;
+  color: #666;
+  padding: 9px 15px;
+  background: #e7e9f2;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+/* 申诉列表 */
+.appeal_list {
+  background: #fff;
+  padding: 24px 20px;
+  font-size: 14px;
+  color: #333;
+}
+.appeal_list li+li {
+  margin-top: 20px;
+}
+.list_item_title {
+  background: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  padding: 12px 24px;
+  border-bottom: 0;
+}
+.tb {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../../../assets/img/common/tb.png') no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.orderno {
+  margin-left: 20px;
+}
+.color-e45858 {
+  color: #e45858;
+}
+.color-333 {
+  color: #333;
+}
+.margin_space {
+  margin-right: 20px;
+}

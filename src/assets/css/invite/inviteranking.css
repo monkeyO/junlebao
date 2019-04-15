@@ -1,0 +1,36 @@
+/* 邀请排行榜 */
+.invite_ranking {
+  width: 57.4%;
+  min-height: 1036px;
+  margin: 30px auto 0;
+  background: url('../../img/invite/invite_ranking_bg.png') no-repeat;
+  background-size: 100% 100%;
+}
+.invite_ranking_box {
+  padding: 240px 0 48px;
+}
+.invite_ranking_ul {
+  width: 93%;
+  margin: 0 auto;
+  font-size: 22px;
+  text-align: center;
+}
+.invite_ranking_ul li {
+  display: flex;
+  border: 1px solid #e0d9d1;
+  color: #3d3d3d;
+}
+.invite_ranking_ul li+li {
+  margin-top: 4px;
+}
+.invite_ranking_title {
+  color: #aa906f!important;
+}
+.invite_ranking_ul div {
+  flex: 1;
+  height: 66px;
+  line-height: 66px;
+}
+.invite_ranking_ul div+div {
+  border-left: 1px solid #e0d9d1;
+}

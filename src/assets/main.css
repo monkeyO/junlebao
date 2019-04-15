@@ -1,0 +1,147 @@
+/************
+ * 页面样式
+ ************/
+
+/* ==========
+   基本默认值
+   ========== */
+
+html {
+  font-size: 14px;
+  color: #222;
+}
+
+*{
+  outline:none;
+  margin: 0;
+  padding: 0;
+}
+::selection {
+  background-color: #b3d4fc;
+  text-shadow: none;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  text-decoration:none;
+  color: #222;
+}
+
+/* ==========
+   工具样式
+   ========== */
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.hide {
+  display: none !important;/*隐藏不占据空间*/
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;/*隐藏保留所占空间*/
+}
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.color-red{
+  color: red;
+}
+.color-font{
+  color: #666;
+}
+.active{
+  color: red;
+}
+.pointer{
+  cursor: pointer;
+}
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.color-orange {
+  color: #ff6400;
+}
+.color-fd5856 {
+  color: #fd5856;
+}
+/*
+  指针为默认
+*/
+.reject{
+  cursor: default !important;
+}
+/*
+图片上传的input控件隐藏
+*/
+.uploadInput {
+  width: 104px;
+  height: 108px;
+  position: absolute;
+  background: transparent;
+  border: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.uploadInput + img{
+  width: 104px;
+  height: 108px;
+}
+/* //自定义关闭用的X */
+.my-close::after{
+  content: '×';
+  font-size: 30px;
+  display: block;
+  line-height: 10px;
+  cursor: pointer;
+}
+/*========
+   清除浮动
+ ==========*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
