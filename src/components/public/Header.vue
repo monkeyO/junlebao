@@ -8,8 +8,8 @@
               <span  v-if="loginState">
                   您好,{{userInfo.phone}} | <span @click="exit" class='pointer'>退出</span>
               </span>
-              <span v-else @click="login" class='pointer'>
-                <img src='@/assets/img/login/login.jpg' class='loginimg'>登录
+              <span v-else @click="login" class='pointer login-btn'>
+                登录
               </span>
             </span>
             <!-- <router-link to="/reg" slot="left">
@@ -35,14 +35,22 @@
               </div>
             </span>
             <span v-else>
-              客服QQ： 8888888
+              QQ客服： 8888888
             </span>
           </span>
         </div>
       </div>
       <div id='h-bottom'>
         <div class="w1200">
-          <img src="@/assets/img/common/58logo.png" alt="logo" height="60px">
+          
+          <div id="logo">
+              <img src="@/assets/img/common/58logo.png" alt="logo" height="60px">
+              <div>
+                  <p clsss="logo-top">爆款打造专家</p>
+                  <p class="logo-bottom">安全&nbsp;快速&nbsp;高效</p>
+              </div>
+          </div>
+            
             <ul v-if="loginState" class='h-ul'>
               <!-- <li>
                 <router-link to="/">
@@ -75,6 +83,8 @@
                 </router-link>
               </li>
             </ul>
+
+
         </div>
       </div>
   </div>

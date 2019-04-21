@@ -14,12 +14,16 @@
   color: white;
 }
 #h-top{
-  height: 30px;
-  line-height: 30px;
-  background: #F9F9F9;
+  height:60px;
+  line-height: 60px;
+  background: #000000;
   /* border-bottom: 1px solid #D8D8D8; */
   font-weight: bold;
   color: #666;
+  font-size: 18px;
+}
+.login-btn{
+  color: #FF1622
 }
 .login{
   margin-right: 20px;
@@ -39,7 +43,7 @@
 }
 #h-bottom{
   background: white;
-  height: 80px;
+  height: 120px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -49,6 +53,29 @@
   justify-content: space-between;
   align-items: center;
 }
+#logo{
+  float: left;
+  display: flex;
+  align-items: center; 
+}
+#logo>div{
+  margin-left: 30px;
+  padding-left: 20px;
+  border-left: 1px solid #FF1622;
+}
+
+#logo  .logo-top{
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+#logo  .logo-bottom{
+  font-size: 16px;
+  color: #FF1622;
+}
+
+
 .h-ul{
   display: flex;
   color: #D8D8D8;
