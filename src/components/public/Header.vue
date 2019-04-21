@@ -46,11 +46,10 @@
           <div id="logo">
               <img src="@/assets/img/common/58logo.png" alt="logo" height="60px">
               <div>
-                  <p clsss="logo-top">爆款打造专家</p>
-                  <p class="logo-bottom">安全&nbsp;快速&nbsp;高效</p>
+                  <p id="logo-top">爆款打造专家</p>
+                  <p class="logo-bottom">安全&nbsp;&nbsp;&nbsp;&nbsp;快速&nbsp;&nbsp;&nbsp;&nbsp;高效</p>
               </div>
           </div>
-            
             <ul v-if="loginState" class='h-ul'>
               <!-- <li>
                 <router-link to="/">

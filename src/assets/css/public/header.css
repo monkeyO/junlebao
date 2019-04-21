@@ -64,17 +64,16 @@
   border-left: 1px solid #FF1622;
 }
 
-#logo  .logo-top{
-  font-size: 22px;
-  letter-spacing: 2px;
-  color: #000000;
-}
-
 #logo  .logo-bottom{
   font-size: 16px;
   color: #FF1622;
 }
 
+#logo  #logo-top{
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #000000;
+}
 
 .h-ul{
   display: flex;

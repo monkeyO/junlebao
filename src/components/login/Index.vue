@@ -1,25 +1,25 @@
 <template>
-  <div>
+  <div class="main">
     <Header></Header>
     <div class='box clearfix'>
-      <img src="@/assets/img/login/login_bg.png" alt="" id='bg' width="100%">
+      <!-- <img src="@/assets/img/login/login_bg.png" alt="" id='bg' width="100%"> -->
       <div class='regmain'>
         <div>
             <ul>
-              <li style='text-align: center;margin-bottom: 30px;color:white;letter-spacing: 7px;'>
-                用户登录
+              <li style='text-align: center;color:#000000;letter-spacing: 2px; margin-bottom:0; padding-bottom:.1px;'>
+                <span style="padding-bottom: 25px; display:inline-block; margin-bottom:-2px; border-bottom:3px solid #FE0913;">用户登录</span>
               </li>
-              <li style='border-top: 2px solid;padding-top: 15px;'>
-                <span class='inputbg bgphone'></span>
+              <li style='border-top: 2px solid; padding-top: 15px;'>
+                <!-- <span class='inputbg bgphone'></span> -->
                 <input type="text" placeholder="请输入手机号码" id='phone' v-model="phone">
               </li>
               <li>
-                <span class='inputbg bgpsw'></span>
+                <!-- <span class='inputbg bgpsw'></span> -->
                 <input type="password" placeholder="输入密码" id='password' v-model="password" @keyup.enter='login'>
               </li>
               <li>
                 <div class="p_operation">
-                <el-checkbox v-model="remeberMe">记住我(两周内免登录)</el-checkbox>
+                <el-checkbox v-model="remeberMe" style="color:#000000;">记住我(两周内免登录)</el-checkbox>
                 <router-link to="/login" class="pull-right" @click.native="showPop">忘记密码</router-link>
               </div>
               </li>
